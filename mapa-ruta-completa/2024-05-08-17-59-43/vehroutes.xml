@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-08 18:00:02 by Eclipse SUMO sumo Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\osm.net.xml.gz"/>
+        <route-files value="C:\Users\javie\Sumo\2024-05-08-17-59-43\trips.trips.xml"/>
+        <additional-files value="C:\Users\javie\Sumo\2024-05-08-17-59-43\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\javie\Sumo\2024-05-08-17-59-43\vehroutes.xml"/>
+        <stop-output value="C:\Users\javie\Sumo\2024-05-08-17-59-43\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\javie\Sumo\2024-05-08-17-59-43\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0_bus_Albrook_-_Amador:0" type="pt_bus" depart="15.00" departLane="0" arrival="170.00">
+        <route edges="61957184#1 556119784 1013537810 180592976#0 180592976#1 1230162297 -368527152#2 -368527152#1 -368527152#0 180592999 265043147#0 265043147#1 265043147#2 265043147#3 265043147#4 265043147#5 265043147#6-AddedOnRampEdge 265043147#6"/>
+        <stop busStop="10852935519" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="4_bus_Panamá_Viejo_-_Ave._Balboa_-_Mercado_de_Mariscos:0" type="pt_bus" depart="133.00" departLane="0" arrival="268.00">
+        <route edges="860209444#8 265170931#1 265170931#2 265170931#3 265170931#4 265170931#5 265170931#6 265170931#7 265170931#9 265170931#10 265170931#11 265170931#12 265170931#13 265170931#14"/>
+        <stop busStop="2708397134" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="3_bus_Alcalde_Díaz_-_Via_España_-_Estación_Marañón:0" type="pt_bus" depart="131.00" departLane="0" arrival="488.00">
+        <route edges="158187043#0 158187043#1 158187043#2 158187043#3 557053863#0 557053863#1 557053863#2 557053863#3 557053863#4 557053863#6 557053863#7 557053863#8 557053863#9 557053863#10 557053863#11 557053863#12 557053863#13 557053863#14 557053863#15 557053863#16 557053863#17 557053863#18 557053863#19 557053863#20 557053863#21 557053863#22 557053863#23 383631567 383662605#0 383662605#1 383662605#2 383662605#3 383662605#4 619827524#0 619827524#1 619827524#2 619827524#3 619827524#4 619827524#5 619827524#6 619827524#9 619827524#10 619827524#11 701653895#0 701653895#1 31845222 618626190 618626191 619834155#0 619834155#1 619834155#2 619834155#3 619834155#4 619834155#5 619834155#6 619827512#0 619827512#1 619827512#2 619827512#3 265166490#0 265166490#1 265166490#2 265166490#3 265166491 380231547#0 380231547#1 380231547#2 265166489"/>
+        <stop busStop="2701746132" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="10_bus_Amador_-_Albrook:0" type="pt_bus" depart="441.00" departLane="0" arrival="736.00">
+        <route edges="264770267#0 264770267#0-AddedOffRampEdge 264770267#1 264770267#2 268116604#0 268116604#1 268116606 1013537807 552693830 268116611#0 268116611#1 268116611#2 268116611#3 268116611#4 82124277 368527152#0 368527152#1 368527152#2 368524642#0 368524642#1 618627357 1262569398 618993822#2 618993822#3 618993822#4 618993822#5 618993822#6 618993822#7 618993822#8 370324139 1013537804 370324141#1 -556119784 61957184#0 61957184#1"/>
+        <stop busStop="10852935519@9735230" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="2_bus_Tocumen_-_Via_España_-_Albrook:0" type="pt_bus" depart="52.00" departLane="0" arrival="788.00">
+        <route edges="158187043#0 158187043#0 42935501#1"/>
+        <stop busStop="2701746132" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="1_bus_Albrook_-_Vía_España_-_Gran_Estación:0" type="pt_bus" depart="17.00" departLane="0" arrival="790.00">
+        <route edges="1167131246 265450396 556870433#0 556870433#1 268116603 82586682 346392878 146990454#0 146990454#1 146990454#2 146990454#3 146990454#4 146990454#5 146990454#6 29426452#0 29426452#1 29426452#2 29426452#4 265048835#0 265048835#1 265048835#2 265048835#3 265048835#4 860378951 860378951-AddedOffRampEdge 265048834 387405981#0-AddedOnRampEdge 387405981#0 387405981#1 387405981#2 387405981#2-AddedOffRampEdge 387405981#3 619843368#1 619843368#2 619843368#3 619843368#4 619843368#5 383817337 29426473#0 29426473#1-AddedOnRampEdge 29426473#1 29426473#2 29426473#3 29426473#4 29426473#5 29426473#6 385887684 385887680#5 385888322#0 385888322#1 385888322#2 607794386#0 607794386#1 607794386#2 607794386#3 640399962 380222153 -557066190#0 -265035162#0 -265035161"/>
+        <stop busStop="2734730394" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="11_bus_Esclusas_de_Miraflores_-_Albrook:0" type="pt_bus" depart="535.00" departLane="0" arrival="825.00">
+        <route edges="263956804 263956804-AddedOffRampEdge 40809788 1263750638#0 1263750638#1 42935500#0 42935500#1 1263750637 42935501#0 42935501#1"/>
+        <stop busStop="2696382427" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="5_bus_Albrook_-_Via_España_-_Los_Andes:0" type="pt_bus" depart="165.00" departLane="0" arrival="1106.00">
+        <route edges="1167131246 265450396 556870433#0 556870433#1 268116603 82586682 346392878 146990454#0 146990454#1 146990454#2 146990454#3 146990454#4 146990454#5 146990454#6 29426452#0 29426452#1 29426452#2 29426452#4 265048835#0 265048835#1 265048835#2 265048835#3 265048835#4 860378951 860378951-AddedOffRampEdge 265048834 387405981#0-AddedOnRampEdge 387405981#0 387405981#1 387405981#2 387405981#2-AddedOffRampEdge 387405981#3 619843368#1 619843368#2 619843368#3 619843368#4 619843368#5 383817337 29426473#0 29426473#1-AddedOnRampEdge 29426473#1 29426473#2 29426473#3 29426473#4 29426473#5 29426473#6 385887684 385887680#5 385888322#0 385888322#1 385888322#2 607794386#0 607794386#1 607794386#2 607794386#3 640399962 380222153 -557066190#0 -265035162#0 -265035161"/>
+        <stop busStop="2734730394" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="8_subway_L2:0" type="pt_subway" depart="383.00" departLane="0" arrival="1284.00">
+        <route edges="684868237"/>
+        <stop busStop="6417104467" duration="30.00"/>
+        <stop busStop="6416942637" duration="30.00"/>
+        <stop busStop="6416942690" duration="30.00"/>
+        <stop busStop="6416933278" duration="30.00"/>
+        <stop busStop="6416942721" duration="30.00"/>
+        <stop busStop="6416942751" duration="30.00"/>
+        <stop busStop="6416942791" duration="30.00"/>
+        <stop busStop="6416933276" duration="30.00"/>
+        <stop busStop="6416933275" duration="30.00"/>
+        <stop busStop="6416933273" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="9_subway_L2:1" type="pt_subway" depart="406.00" departLane="0" arrival="1328.00">
+        <route edges="684868250"/>
+        <stop busStop="6416933272" duration="30.00"/>
+        <stop busStop="6416933274" duration="30.00"/>
+        <stop busStop="6416933277" duration="30.00"/>
+        <stop busStop="6416942785" duration="30.00"/>
+        <stop busStop="6416942764" duration="30.00"/>
+        <stop busStop="6416942736" duration="30.00"/>
+        <stop busStop="6416933279" duration="30.00"/>
+        <stop busStop="6416942683" duration="30.00"/>
+        <stop busStop="6416942636" duration="30.00"/>
+        <stop busStop="6417104466" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="6_subway_L1:0" type="pt_subway" depart="253.00" departLane="0" arrival="1474.00">
+        <route edges="272808900 -1257873220#0"/>
+        <stop busStop="3529301118" duration="30.00"/>
+        <stop busStop="-5173156385" duration="30.00"/>
+        <stop busStop="-2618155817" duration="30.00"/>
+        <stop busStop="-2618155816" duration="30.00"/>
+        <stop busStop="2618155178" duration="30.00"/>
+        <stop busStop="2618155177" duration="30.00"/>
+        <stop busStop="3529301119" duration="30.00"/>
+        <stop busStop="3529301122" duration="30.00"/>
+        <stop busStop="2618155175" duration="30.00"/>
+        <stop busStop="2618155174" duration="30.00"/>
+        <stop busStop="2618151444" duration="30.00"/>
+        <stop busStop="2618136969" duration="30.00"/>
+        <stop busStop="5208805274" duration="30.00"/>
+        <stop busStop="2618111169" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="7_subway_L1:1" type="pt_subway" depart="1474.00" departLane="0" arrival="2688.00">
+        <route edges="-346387794#0 1257873220#1"/>
+        <stop busStop="-2618111169" duration="30.00"/>
+        <stop busStop="-5208805274" duration="30.00"/>
+        <stop busStop="-2618136969" duration="30.00"/>
+        <stop busStop="-2618151444" duration="30.00"/>
+        <stop busStop="-2618155174" duration="30.00"/>
+        <stop busStop="-2618155175" duration="30.00"/>
+        <stop busStop="-3529301122" duration="30.00"/>
+        <stop busStop="-3529301119" duration="30.00"/>
+        <stop busStop="-2618155177" duration="30.00"/>
+        <stop busStop="-2618155178" duration="30.00"/>
+        <stop busStop="2618155816" duration="30.00"/>
+        <stop busStop="2618155817" duration="30.00"/>
+        <stop busStop="5173156385" duration="30.00"/>
+        <stop busStop="-3529301118" duration="30.00"/>
+    </vehicle>
+
+</routes>

@@ -1,0 +1,8 @@
+Warning: At actuated tlLogic '634335417', linkIndex 2 has no controlling detector.
+Warning: At actuated tlLogic '634335417', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic '634335417', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_10879654759_10879654760_10879654761_1902608110_#1more', linkIndex 16 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_10879654759_10879654760_10879654761_1902608110_#1more', linkIndex 17 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_11741662810_1909932732_445833983', actuated phase 2 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1664008413_1902629029', actuated phase 2 has no controlling detector.
+Warning: 19 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

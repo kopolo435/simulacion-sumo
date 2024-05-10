@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-08 17:59:55 by Eclipse SUMO netconvert Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="3558262" name="Albrook - Amador" line="Albrook - Amador" type="bus" vClass="bus" completeness="0.14">
+        <route edges="61957184#1 556119784 1013537810 180592976#0 180592976#1 1230162297 -368527152#2 -368527152#1 -368527152#0 180592999 265043147#0 265043147#1 265043147#2 265043147#3 265043147#4 265043147#5 265043147#6-AddedOnRampEdge 265043147#6"/>
+        <busStop id="10852935519" name=""/>
+    </ptLine>
+    <ptLine id="3561882" name="Albrook - Vía España - Gran Estación" line="Albrook - Vía España - Gran Estación" type="bus" vClass="bus" completeness="0.20">
+        <route edges="1167131246 72389934#1 264770272#0 264770272#1 263956797#0 263956797#1 265182025-AddedOnRampEdge 265182025 264770267#0 264770267#0-AddedOffRampEdge 264770267#1 264770267#2 265450390 268116606 1013537807 1264229235 265450396 556870433#0 556870433#1 346392879#0 346392879#1-AddedOnRampEdge 346392879#1 265035152#0 265035152#1 265035152#2 265035152#3 265035152#4 265035152#5 265035152#6 265035152#7 265035152#8 265035152#9 265035152#10 265035152#11 380227013#0 380227013#1 380227013#2 380227013#3 702928750#0 702928750#2 265035144#0 265035144#1 265035144#2 265035144#3 386989162#0 386989162#1 386989162#2 386989162#3 265048826#0 265048826#1 265048826#2 265048826#3 265035147#0 265035147#1 265035147#2 265035147#3 265035147#4 1257581789#1 383709063#0 383709063#1 383709063#2 383709063#3 383709063#4 383709063#5 383709063#7 660840510#0 660840510#1 660840510#2 660840510#3 660840510#4 660840510#5 771791216#0 771791216#1 771791216#2 265035167 265035160-AddedOnRampEdge 265035160 386583108 386583108-AddedOffRampEdge 265035165 265035158 82586695#0 82586695#1 1258294310#1 660840500#0 660840500#1 660840500#2 660840500#3 660840500#4 660840500#5 660840500#6 660840500#7 660840500#8 41119175#1 41119175#2 265035149 158193609 -265035161"/>
+        <busStop id="2734730394" name="Abastos"/>
+    </ptLine>
+    <ptLine id="3562020" name="Tocumen - Via España - Albrook" line="Tocumen - Via España - Albrook" type="bus" vClass="bus" completeness="0.14">
+        <route edges="158187043#0 158187043#1 158187043#2 158187043#3 557053863#0 557053863#1 557053863#2 557053863#3 557053863#4 557053863#6 557053863#7 557053863#8 557053863#9 557053863#10 557053863#11 557053863#12 557053863#13 557053863#14 557053863#15 557053863#16 557053863#17 557053863#18 557053863#19 557053863#20 557053863#21 557053863#22 557053863#23 383631567 383662605#0 383662605#1 383662605#2 383662605#3 383662605#4 619827524#0 619827524#1 619827524#2 619827524#3 619827524#4 619827524#5 619827524#6 619827524#9 619827524#10 619827524#11 701653895#0 701653895#1 31845222 618626190 618626191 619834155#0 619834155#1 619834155#2 619834155#3 619834155#4 619834155#5 619834155#6 619827512#0 619827512#1 619827512#2 619827512#3 265166490#0 265166490#1 265166490#2 265166490#3 265035151#0 265035151#1 265035151#2 384073720 384073727#1 265450393 1013537806 268116611#0 268116611#1 268116611#2 268116611#3 268116611#4 1013537811 265043147#0 265043147#1 265043147#2 265043147#3 265043147#4 265043147#5 265043147#6-AddedOnRampEdge 265043147#6 263956804 263956804-AddedOffRampEdge 40809788 1263750638#0 1263750638#1 42935500#0 42935500#1 1263750637 42935501#0 42935501#1"/>
+        <busStop id="2701746132" name="Obarrio"/>
+    </ptLine>
+    <ptLine id="3563416" name="Alcalde Díaz - Via España - Estación Marañón" line="Alcalde Díaz - Via España - Estación Marañón" type="bus" vClass="bus" completeness="0.25">
+        <route edges="158187043#0 158187043#1 158187043#2 158187043#3 557053863#0 557053863#1 557053863#2 557053863#3 557053863#4 557053863#6 557053863#7 557053863#8 557053863#9 557053863#10 557053863#11 557053863#12 557053863#13 557053863#14 557053863#15 557053863#16 557053863#17 557053863#18 557053863#19 557053863#20 557053863#21 557053863#22 557053863#23 383631567 383662605#0 383662605#1 383662605#2 383662605#3 383662605#4 619827524#0 619827524#1 619827524#2 619827524#3 619827524#4 619827524#5 619827524#6 619827524#9 619827524#10 619827524#11 701653895#0 701653895#1 31845222 618626190 618626191 619834155#0 619834155#1 619834155#2 619834155#3 619834155#4 619834155#5 619834155#6 619827512#0 619827512#1 619827512#2 619827512#3 265166490#0 265166490#1 265166490#2 265166490#3 265166491 380231547#0 380231547#1 380231547#2 265166489"/>
+        <busStop id="2701746132" name="Obarrio"/>
+    </ptLine>
+    <ptLine id="3563450" name="Panamá Viejo - Ave. Balboa - Mercado de Mariscos" line="Panamá Viejo - Ave. Balboa - Mercado de Mariscos" type="bus" vClass="bus" completeness="0.50">
+        <route edges="860209444#8 265170931#1 265170931#2 265170931#3 265170931#4 265170931#5 265170931#6 265170931#7 265170931#9 265170931#10 265170931#11 265170931#12 265170931#13 265170931#14"/>
+        <busStop id="2708397134" name="Hospital del Niño"/>
+    </ptLine>
+    <ptLine id="3563701" name="Albrook - Via España - Los Andes" line="Albrook - Via España - Los Andes" type="bus" vClass="bus" completeness="0.20">
+        <route edges="1167131246 72389934#1 264770272#0 264770272#1 263956797#0 263956797#1 265182025-AddedOnRampEdge 265182025 264770267#0 264770267#0-AddedOffRampEdge 264770267#1 264770267#2 265450390 268116606 1013537807 1264229235 265450396 556870433#0 556870433#1 346392879#0 346392879#1-AddedOnRampEdge 346392879#1 384115912#0 384115912#1 384115912#2 384115912#3 386987696#0 386987696#1 386987696#2 702928750#0 702928750#2 265035144#0 265035144#1 265035144#2 265035144#3 386989162#0 386989162#1 386989162#2 386989162#3 265048826#0 265048826#1 265048826#2 265048826#3 265035147#0 265035147#1 265035147#2 265035147#3 265035147#4 1257581789#1 383709063#0 383709063#1 383709063#2 383709063#3 383709063#4 383709063#5 383709063#7 660840510#0 660840510#1 660840510#2 660840510#3 660840510#4 660840510#5 771791216#0 771791216#1 771791216#2 265035167 265035160-AddedOnRampEdge 265035160 386583108 386583108-AddedOffRampEdge 265035165 265035158 82586695#0 82586695#1 1258294310#1 660840500#0 660840500#1 660840500#2 660840500#3 660840500#4 660840500#5 660840500#6 660840500#7 660840500#8 41119175#1 41119175#2 265035149 158193609 -265035161"/>
+        <busStop id="2734730394" name="Abastos"/>
+    </ptLine>
+    <ptLine id="7706228" name="Línea 1" line="L1" type="subway" vClass="rail_urban" color="red" completeness="1.00">
+        <route edges="272808900 -1257873220#0"/>
+        <busStop id="3529301118" name="San Isidro"/>
+        <busStop id="-5173156385" name="Los Andes"/>
+        <busStop id="-2618155817" name="Pan de Azúcar"/>
+        <busStop id="-2618155816" name="San Miguelito"/>
+        <busStop id="2618155178" name="Pueblo Nuevo"/>
+        <busStop id="2618155177" name="12 de Octubre"/>
+        <busStop id="3529301119" name="El Ingenio"/>
+        <busStop id="3529301122" name="Fernández de Córdoba"/>
+        <busStop id="2618155175" name="Vía Argentina"/>
+        <busStop id="2618155174" name="Iglesia del Carmen"/>
+        <busStop id="2618151444" name="Santo Tomás"/>
+        <busStop id="2618136969" name="Lotería"/>
+        <busStop id="5208805274" name="Cinco de Mayo"/>
+        <busStop id="2618111169" name="Albrook"/>
+    </ptLine>
+    <ptLine id="7712335" name="Línea 1" line="L1" type="subway" vClass="rail_urban" color="red" completeness="1.00">
+        <route edges="-346387794#0 1257873220#1"/>
+        <busStop id="-2618111169" name="Albrook"/>
+        <busStop id="-5208805274" name="Cinco de Mayo"/>
+        <busStop id="-2618136969" name="Lotería"/>
+        <busStop id="-2618151444" name="Santo Tomás"/>
+        <busStop id="-2618155174" name="Iglesia del Carmen"/>
+        <busStop id="-2618155175" name="Vía Argentina"/>
+        <busStop id="-3529301122" name="Fernández de Córdoba"/>
+        <busStop id="-3529301119" name="El Ingenio"/>
+        <busStop id="-2618155177" name="12 de Octubre"/>
+        <busStop id="-2618155178" name="Pueblo Nuevo"/>
+        <busStop id="2618155816" name="San Miguelito"/>
+        <busStop id="2618155817" name="Pan de Azúcar"/>
+        <busStop id="5173156385" name="Los Andes"/>
+        <busStop id="-3529301118" name="San Isidro"/>
+    </ptLine>
+    <ptLine id="9502695" name="Línea 2 : Nuevo Tocumen → San Miguelito" line="L2" type="subway" vClass="rail_urban" color="green" completeness="0.62">
+        <route edges="684868237"/>
+        <busStop id="6417104467" name="Don Bosco"/>
+        <busStop id="6416942637" name="Pedregal - Las Acacias"/>
+        <busStop id="6416942690" name="San Antonio"/>
+        <busStop id="6416933278" name="Cerro Viento"/>
+        <busStop id="6416942721" name="Brisas Del Golf"/>
+        <busStop id="6416942751" name="El Crisol"/>
+        <busStop id="6416942791" name="Villa Lucre"/>
+        <busStop id="6416933276" name="Cincuentenario"/>
+        <busStop id="6416933275" name="Paraiso"/>
+        <busStop id="6416933273" name="San Miguelito"/>
+    </ptLine>
+    <ptLine id="9502696" name="Línea 2 : San Miguelito → Nuevo Tocumen" line="L2" type="subway" vClass="rail_urban" color="green" completeness="0.62">
+        <route edges="684868250"/>
+        <busStop id="6416933272" name="San Miguelito"/>
+        <busStop id="6416933274" name="Paraiso"/>
+        <busStop id="6416933277" name="Cincuentenario"/>
+        <busStop id="6416942785" name="Villa Lucre"/>
+        <busStop id="6416942764" name="El Crisol"/>
+        <busStop id="6416942736" name="Brisas Del Golf"/>
+        <busStop id="6416933279" name="Cerro Viento"/>
+        <busStop id="6416942683" name="San Antonio"/>
+        <busStop id="6416942636" name="Pedregal - Las Acacias"/>
+        <busStop id="6417104466" name="Don Bosco"/>
+    </ptLine>
+    <ptLine id="9735230" name="Amador - Albrook" line="Amador - Albrook" type="bus" vClass="bus" completeness="0.33">
+        <route edges="264770267#0 264770267#0-AddedOffRampEdge 264770267#1 264770267#2 268116604#0 268116604#1 268116606 1013537807 552693830 268116611#0 268116611#1 268116611#2 268116611#3 268116611#4 82124277 368527152#0 368527152#1 368527152#2 368524642#0 368524642#1 618993822#0 618993822#1 618993822#2 618993822#3 618993822#4 618993822#5 618993822#6 618993822#7 618993822#8 370324139 1013537804 370324141#1 -556119784 61957184#0 61957184#1"/>
+        <busStop id="10852935519@9735230" name=""/>
+    </ptLine>
+    <ptLine id="9746230" name="Esclusas de Miraflores - Albrook" line="Esclusas de Miraflores - Albrook" type="bus" vClass="bus" completeness="0.12">
+        <route edges="263956804 263956804-AddedOffRampEdge 40809788 1263750638#0 1263750638#1 42935500#0 42935500#1 1263750637 42935501#0 42935501#1"/>
+        <busStop id="2696382427" name="D - Via España"/>
+    </ptLine>
+</ptLines>

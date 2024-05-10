@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-08 17:59:59.300224 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_19_0+0000-baa66a0f364
+<configuration>
+    <net-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\osm_stops.add.xml"/>
+    <output-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\stopinfos.xml"/>
+    <routes-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\vehroutes.xml"/>
+    <trips-file value="C:\Users\javie\Sumo\2024-05-08-17-59-43\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="rail_urban" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_Albrook_-_Amador:0" type="pt_bus" depart="15.0" departLane="best" from="61957184#1" to="265043147#6">
+        <stop busStop="10852935519" duration="30"/>
+    </trip>
+    <trip id="1_bus_Albrook_-_Vía_España_-_Gran_Estación:0" type="pt_bus" depart="17.0" departLane="best" from="1167131246" to="-265035161">
+        <stop busStop="2734730394" duration="30"/>
+    </trip>
+    <trip id="2_bus_Tocumen_-_Via_España_-_Albrook:0" type="pt_bus" depart="52.0" departLane="best" from="158187043#0" to="42935501#1">
+        <stop busStop="2701746132" duration="30"/>
+    </trip>
+    <trip id="3_bus_Alcalde_Díaz_-_Via_España_-_Estación_Marañón:0" type="pt_bus" depart="131.0" departLane="best" from="158187043#0" to="265166489">
+        <stop busStop="2701746132" duration="30"/>
+    </trip>
+    <trip id="4_bus_Panamá_Viejo_-_Ave._Balboa_-_Mercado_de_Mariscos:0" type="pt_bus" depart="133.0" departLane="best" from="860209444#8" to="265170931#14">
+        <stop busStop="2708397134" duration="30"/>
+    </trip>
+    <trip id="5_bus_Albrook_-_Via_España_-_Los_Andes:0" type="pt_bus" depart="165.0" departLane="best" from="1167131246" to="-265035161">
+        <stop busStop="2734730394" duration="30"/>
+    </trip>
+    <trip id="6_subway_L1:0" type="pt_subway" depart="253.0" departLane="best" from="272808900" to="-1257873220#0">
+        <stop busStop="3529301118" duration="30"/>
+        <stop busStop="-5173156385" duration="30"/>
+        <stop busStop="-2618155817" duration="30"/>
+        <stop busStop="-2618155816" duration="30"/>
+        <stop busStop="2618155178" duration="30"/>
+        <stop busStop="2618155177" duration="30"/>
+        <stop busStop="3529301119" duration="30"/>
+        <stop busStop="3529301122" duration="30"/>
+        <stop busStop="2618155175" duration="30"/>
+        <stop busStop="2618155174" duration="30"/>
+        <stop busStop="2618151444" duration="30"/>
+        <stop busStop="2618136969" duration="30"/>
+        <stop busStop="5208805274" duration="30"/>
+        <stop busStop="2618111169" duration="30"/>
+    </trip>
+    <trip id="7_subway_L1:1" type="pt_subway" depart="303.0" departLane="best" from="-346387794#0" to="1257873220#1">
+        <stop busStop="-2618111169" duration="30"/>
+        <stop busStop="-5208805274" duration="30"/>
+        <stop busStop="-2618136969" duration="30"/>
+        <stop busStop="-2618151444" duration="30"/>
+        <stop busStop="-2618155174" duration="30"/>
+        <stop busStop="-2618155175" duration="30"/>
+        <stop busStop="-3529301122" duration="30"/>
+        <stop busStop="-3529301119" duration="30"/>
+        <stop busStop="-2618155177" duration="30"/>
+        <stop busStop="-2618155178" duration="30"/>
+        <stop busStop="2618155816" duration="30"/>
+        <stop busStop="2618155817" duration="30"/>
+        <stop busStop="5173156385" duration="30"/>
+        <stop busStop="-3529301118" duration="30"/>
+    </trip>
+    <trip id="8_subway_L2:0" type="pt_subway" depart="383.0" departLane="best" from="684868237" to="684868237">
+        <stop busStop="6417104467" duration="30"/>
+        <stop busStop="6416942637" duration="30"/>
+        <stop busStop="6416942690" duration="30"/>
+        <stop busStop="6416933278" duration="30"/>
+        <stop busStop="6416942721" duration="30"/>
+        <stop busStop="6416942751" duration="30"/>
+        <stop busStop="6416942791" duration="30"/>
+        <stop busStop="6416933276" duration="30"/>
+        <stop busStop="6416933275" duration="30"/>
+        <stop busStop="6416933273" duration="30"/>
+    </trip>
+    <trip id="9_subway_L2:1" type="pt_subway" depart="406.0" departLane="best" from="684868250" to="684868250">
+        <stop busStop="6416933272" duration="30"/>
+        <stop busStop="6416933274" duration="30"/>
+        <stop busStop="6416933277" duration="30"/>
+        <stop busStop="6416942785" duration="30"/>
+        <stop busStop="6416942764" duration="30"/>
+        <stop busStop="6416942736" duration="30"/>
+        <stop busStop="6416933279" duration="30"/>
+        <stop busStop="6416942683" duration="30"/>
+        <stop busStop="6416942636" duration="30"/>
+        <stop busStop="6417104466" duration="30"/>
+    </trip>
+    <trip id="10_bus_Amador_-_Albrook:0" type="pt_bus" depart="441.0" departLane="best" from="264770267#0" to="61957184#1">
+        <stop busStop="10852935519@9735230" duration="30"/>
+    </trip>
+    <trip id="11_bus_Esclusas_de_Miraflores_-_Albrook:0" type="pt_bus" depart="535.0" departLane="best" from="263956804" to="42935501#1">
+        <stop busStop="2696382427" duration="30"/>
+    </trip>
+</routes>

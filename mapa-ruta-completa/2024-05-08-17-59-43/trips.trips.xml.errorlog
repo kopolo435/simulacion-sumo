@@ -1,0 +1,25 @@
+Warning: At actuated tlLogic '634335417', linkIndex 2 has no controlling detector.
+Warning: At actuated tlLogic '634335417', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic '634335417', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_10879654759_10879654760_10879654761_1902608110_#1more', linkIndex 16 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_10879654759_10879654760_10879654761_1902608110_#1more', linkIndex 17 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_11741662810_1909932732_445833983', actuated phase 2 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_11746454936_11746454945_1910192126_7438966645', actuated phase 2 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1664008413_1902629029', actuated phase 2 has no controlling detector.
+Warning: busStop '10852935519' on lane '61957184#1_0' is too short for vehicle '0_bus_Albrook_-_Amador:0'.
+Warning: No connection between edge '1167131246' and edge '265450396' found.
+Warning: Vehicle '1_bus_Albrook_-_Vía_España_-_Gran_Estación:0' has no valid route from edge '1167131246' to stop edge '265450396'.
+Warning: No connection between edge '158187043#0' and edge '42935501#1' found.
+Warning: No route for vehicle '2_bus_Tocumen_-_Via_España_-_Albrook:0' found.
+Warning: No connection between edge '1167131246' and edge '265450396' found.
+Warning: Vehicle '5_bus_Albrook_-_Via_España_-_Los_Andes:0' has no valid route from edge '1167131246' to stop edge '265450396'.
+Warning: busStop '10852935519@9735230' on lane '61957184#1_0' is too short for vehicle '10_bus_Amador_-_Albrook:0'.
+Warning: Teleporting vehicle '2_bus_Tocumen_-_Via_España_-_Albrook:0'; waited too long (wrong lane), lane='158187043#0_0', time=414.00.
+Warning: Vehicle '2_bus_Tocumen_-_Via_España_-_Albrook:0' ends teleporting on edge '158187043#0', time=414.00.
+Warning: Teleporting vehicle '1_bus_Albrook_-_Vía_España_-_Gran_Estación:0'; waited too long (wrong lane), lane='1167131246_0', time=432.00.
+Warning: Vehicle '1_bus_Albrook_-_Vía_España_-_Gran_Estación:0' ends teleporting on edge '265450396', time=432.00.
+Warning: Teleporting vehicle '2_bus_Tocumen_-_Via_España_-_Albrook:0'; waited too long (wrong lane), lane='158187043#0_0', time=724.00.
+Warning: Vehicle '2_bus_Tocumen_-_Via_España_-_Albrook:0' ends teleporting on edge '42935501#1', time=724.00.
+Warning: Teleporting vehicle '5_bus_Albrook_-_Via_España_-_Los_Andes:0'; waited too long (wrong lane), lane='1167131246_0', time=739.00.
+Warning: Vehicle '5_bus_Albrook_-_Via_España_-_Los_Andes:0' ends teleporting on edge '265450396', time=739.00.
+Warning: 25 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

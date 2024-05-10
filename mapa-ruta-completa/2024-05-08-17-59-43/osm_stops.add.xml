@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-08 17:59:55 by Eclipse SUMO netconvert Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-2618111169" name="Albrook" lane="-346387794#0_0" startPos="198.75" endPos="398.75" friendlyPos="true">
+        <access lane="1053834971_0" pos="24.63" length="10.23" friendlyPos="1"/>
+        <access lane="1053834972#0_0" pos="0.74" length="14.66" friendlyPos="1"/>
+        <access lane="346387800_0" pos="26.92" length="40.19" friendlyPos="1"/>
+        <access lane="556119787#0_0" pos="0.00" length="15.47" friendlyPos="1"/>
+        <access lane="556119787#1_0" pos="0.00" length="20.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618136969" name="Lotería" lane="-346387794#0_0" startPos="2779.12" endPos="2979.12" friendlyPos="true">
+        <access lane="1227287757_0" pos="0.00" length="63.90" friendlyPos="1"/>
+        <access lane="28878225#2_0" pos="102.14" length="36.39" friendlyPos="1"/>
+        <access lane="380227013#3_0" pos="36.08" length="19.71" friendlyPos="1"/>
+        <access lane="386987696#2_0" pos="58.42" length="22.30" friendlyPos="1"/>
+        <access lane="702928750#0_0" pos="0.00" length="35.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618151444" name="Santo Tomás" lane="-346387794#0_0" startPos="3333.62" endPos="3533.62" friendlyPos="true">
+        <access lane="28878111#0_0" pos="102.04" length="101.07" friendlyPos="1"/>
+        <access lane="28878137#1_0" pos="105.98" length="20.52" friendlyPos="1"/>
+        <access lane="28878137#2_0" pos="0.00" length="17.79" friendlyPos="1"/>
+        <access lane="386989162#0_0" pos="63.82" length="21.56" friendlyPos="1"/>
+        <access lane="386989162#1_0" pos="1.61" length="8.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618155174" name="Iglesia del Carmen" lane="-346387794#0_0" startPos="4626.59" endPos="4826.59" friendlyPos="true">
+        <access lane="1247329774_0" pos="119.05" length="25.31" friendlyPos="1"/>
+        <access lane="179829767_0" pos="0.00" length="29.94" friendlyPos="1"/>
+        <access lane="179829771#1_0" pos="230.11" length="121.53" friendlyPos="1"/>
+        <access lane="557053863#22_0" pos="74.60" length="1.29" friendlyPos="1"/>
+        <access lane="557053863#23_0" pos="0.00" length="28.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618155175" name="Vía Argentina" lane="-346387794#0_0" startPos="5481.17" endPos="5681.17" friendlyPos="true">
+        <access lane="-37958928_0" pos="228.84" length="94.72" friendlyPos="1"/>
+        <access lane="37958928_0" pos="0.00" length="91.98" friendlyPos="1"/>
+        <access lane="37959233_0" pos="0.00" length="84.32" friendlyPos="1"/>
+        <access lane="557053863#3_0" pos="146.58" length="1.76" friendlyPos="1"/>
+        <access lane="557053863#4_0" pos="0.00" length="90.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618155177" name="12 de Octubre" lane="-346387794#0_0" startPos="8756.66" endPos="8956.66" friendlyPos="true">
+        <access lane="1053788700#5_0" pos="88.58" length="95.19" friendlyPos="1"/>
+        <access lane="1053788700#6_0" pos="50.37" length="13.03" friendlyPos="1"/>
+        <access lane="555297608#0_0" pos="0.00" length="79.54" friendlyPos="1"/>
+        <access lane="623167760#15_0" pos="69.50" length="21.79" friendlyPos="1"/>
+        <access lane="908251267#1_0" pos="68.36" length="87.43" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618155178" name="Pueblo Nuevo" lane="-346387794#0_0" startPos="9704.59" endPos="9904.59" friendlyPos="true">
+        <access lane="-1264199073#4_0" pos="0.00" length="80.03" friendlyPos="1"/>
+        <access lane="-623167761_0" pos="0.00" length="89.94" friendlyPos="1"/>
+        <access lane="1264199073#4_0" pos="9.31" length="75.87" friendlyPos="1"/>
+        <access lane="555297608#9_0" pos="57.70" length="15.60" friendlyPos="1"/>
+        <access lane="623167760#3_0" pos="71.18" length="18.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618155816" name="San Miguelito" lane="-1257873220#0_0" startPos="21.60" endPos="221.60" friendlyPos="true">
+        <access lane="559463923#0_0" pos="71.64" length="21.73" friendlyPos="1"/>
+        <access lane="559463923#1_0" pos="2.68" length="25.64" friendlyPos="1"/>
+        <access lane="622362429#20-AddedOnRampEdge_0" pos="36.48" length="19.03" friendlyPos="1"/>
+        <access lane="684887070#0_0" pos="19.03" length="14.57" friendlyPos="1"/>
+        <access lane="701417247#2_0" pos="3.39" length="24.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2618155817" name="Pan de Azúcar" lane="272808900_0" startPos="2900.35" endPos="3100.35" friendlyPos="true">
+        <access lane="-1262591444_0" pos="7.11" length="24.38" friendlyPos="1"/>
+        <access lane="1262591444_0" pos="0.00" length="26.42" friendlyPos="1"/>
+        <access lane="559463923#21_0" pos="127.48" length="15.06" friendlyPos="1"/>
+        <access lane="622362429#2_0" pos="30.73" length="25.52" friendlyPos="1"/>
+        <access lane="622362429#3_0" pos="2.49" length="18.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3529301118" name="San Isidro" lane="1257873220#1_0" startPos="3967.15" endPos="4167.15" friendlyPos="true"/>
+    <busStop id="-3529301119" name="El Ingenio" lane="-346387794#0_0" startPos="7726.73" endPos="7926.73" friendlyPos="true">
+        <access lane="1039486230_0" pos="12.78" length="14.18" friendlyPos="1"/>
+        <access lane="386254129_0" pos="22.44" length="25.20" friendlyPos="1"/>
+        <access lane="387423177#1_0" pos="98.12" length="24.18" friendlyPos="1"/>
+        <access lane="387423177#2_0" pos="10.84" length="16.71" friendlyPos="1"/>
+        <access lane="623167760#25_0" pos="41.09" length="22.10" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3529301122" name="Fernández de Córdoba" lane="-346387794#0_0" startPos="6504.26" endPos="6704.26" friendlyPos="true">
+        <access lane="-158193614#2_0" pos="0.00" length="37.76" friendlyPos="1"/>
+        <access lane="-158193614#3_0" pos="31.39" length="1.19" friendlyPos="1"/>
+        <access lane="-158193620#0_0" pos="12.69" length="37.30" friendlyPos="1"/>
+        <access lane="158193614#3_0" pos="0.00" length="13.25" friendlyPos="1"/>
+        <access lane="158193620#0_0" pos="0.00" length="36.98" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5173156385" name="Los Andes" lane="272808900_0" startPos="1953.60" endPos="2153.60" friendlyPos="true">
+        <access lane="1262675175_0" pos="69.33" length="26.13" friendlyPos="1"/>
+        <access lane="29425218#7_0" pos="188.49" length="17.80" friendlyPos="1"/>
+        <access lane="620707371#2_0" pos="131.57" length="56.26" friendlyPos="1"/>
+        <access lane="622362441#6_0" pos="41.08" length="96.76" friendlyPos="1"/>
+        <access lane="778634929#10_0" pos="68.42" length="13.84" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5208805274" name="Cinco de Mayo" lane="-346387794#0_0" startPos="1973.14" endPos="2173.14" friendlyPos="true">
+        <access lane="265035151#1_0" pos="141.76" length="220.65" friendlyPos="1"/>
+        <access lane="265035151#2_0" pos="47.69" length="189.01" friendlyPos="1"/>
+        <access lane="265166489_0" pos="206.15" length="124.15" friendlyPos="1"/>
+        <access lane="380236757#1_0" pos="230.39" length="223.63" friendlyPos="1"/>
+        <access lane="701379977_0" pos="206.53" length="316.83" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6416933272" name="San Miguelito" lane="-618627370_0" startPos="11645.66" endPos="11845.66" friendlyPos="true">
+        <access lane="1232839198#1_0" pos="30.61" length="74.33" friendlyPos="1"/>
+        <access lane="153743054#1-AddedOnRampEdge_0" pos="43.69" length="28.33" friendlyPos="1"/>
+        <access lane="29425444#0_0" pos="53.63" length="43.14" friendlyPos="1"/>
+        <access lane="620919159_0" pos="145.37" length="67.66" friendlyPos="1"/>
+        <access lane="701417246_0" pos="145.61" length="0.32" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6416933274" name="Paraiso" lane="-618627370_0" startPos="10913.96" endPos="11113.96" friendlyPos="true">
+        <access lane="29425444#2_0" pos="586.35" length="22.55" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6416933277" name="Cincuentenario" lane="-618627370_0" startPos="10054.37" endPos="10254.37" friendlyPos="true">
+        <access lane="29425444#2_0" pos="1427.16" length="57.93" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6416933279" name="Cerro Viento" lane="-618627370_0" startPos="5029.63" endPos="5229.63" friendlyPos="true"/>
+    <busStop id="-6416942636" name="Pedregal - Las Acacias" lane="-618627370_0" startPos="2354.75" endPos="2554.75" friendlyPos="true"/>
+    <busStop id="-6416942683" name="San Antonio" lane="-618627370_0" startPos="4307.53" endPos="4507.53" friendlyPos="true"/>
+    <busStop id="-6416942736" name="Brisas Del Golf" lane="-618627370_0" startPos="5870.31" endPos="6070.31" friendlyPos="true"/>
+    <busStop id="-6416942764" name="El Crisol" lane="-618627370_0" startPos="7361.53" endPos="7561.53" friendlyPos="true"/>
+    <busStop id="-6416942785" name="Villa Lucre" lane="-618627370_0" startPos="8691.62" endPos="8891.62" friendlyPos="true"/>
+    <busStop id="-6417104466" name="Don Bosco" lane="-618627370_0" startPos="1315.65" endPos="1515.65" friendlyPos="true"/>
+    <busStop id="10852935519" lane="61957184#1_0" startPos="10.35" endPos="10.35" friendlyPos="true" lines="Albrook - Amador"/>
+    <busStop id="10852935519@9735230" lane="61957184#1_0" startPos="10.35" endPos="10.35" friendlyPos="true" lines="Amador - Albrook"/>
+    <busStop id="2618111169" name="Albrook" lane="-1257873220#0_0" startPos="10558.39" endPos="10758.39" friendlyPos="true" lines="L1">
+        <access lane="1053834971_0" pos="24.63" length="10.23" friendlyPos="1"/>
+        <access lane="1053834972#0_0" pos="0.74" length="14.66" friendlyPos="1"/>
+        <access lane="346387800_0" pos="26.92" length="40.19" friendlyPos="1"/>
+        <access lane="556119787#0_0" pos="0.00" length="15.47" friendlyPos="1"/>
+        <access lane="556119787#1_0" pos="0.00" length="20.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618136969" name="Lotería" lane="-1257873220#0_0" startPos="7978.01" endPos="8178.01" friendlyPos="true" lines="L1">
+        <access lane="1227287757_0" pos="0.00" length="63.90" friendlyPos="1"/>
+        <access lane="28878225#2_0" pos="102.14" length="36.39" friendlyPos="1"/>
+        <access lane="380227013#3_0" pos="36.08" length="19.71" friendlyPos="1"/>
+        <access lane="386987696#2_0" pos="58.42" length="22.30" friendlyPos="1"/>
+        <access lane="702928750#0_0" pos="0.00" length="35.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618151444" name="Santo Tomás" lane="-1257873220#0_0" startPos="7423.52" endPos="7623.52" friendlyPos="true" lines="L1">
+        <access lane="28878111#0_0" pos="102.04" length="101.07" friendlyPos="1"/>
+        <access lane="28878137#1_0" pos="105.98" length="20.52" friendlyPos="1"/>
+        <access lane="28878137#2_0" pos="0.00" length="17.79" friendlyPos="1"/>
+        <access lane="386989162#0_0" pos="63.82" length="21.56" friendlyPos="1"/>
+        <access lane="386989162#1_0" pos="1.61" length="8.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618155174" name="Iglesia del Carmen" lane="-1257873220#0_0" startPos="6130.55" endPos="6330.55" friendlyPos="true" lines="L1">
+        <access lane="1247329774_0" pos="119.05" length="25.31" friendlyPos="1"/>
+        <access lane="179829767_0" pos="0.00" length="29.94" friendlyPos="1"/>
+        <access lane="179829771#1_0" pos="230.11" length="121.53" friendlyPos="1"/>
+        <access lane="557053863#22_0" pos="74.60" length="1.29" friendlyPos="1"/>
+        <access lane="557053863#23_0" pos="0.00" length="28.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618155175" name="Vía Argentina" lane="-1257873220#0_0" startPos="5275.97" endPos="5475.97" friendlyPos="true" lines="L1">
+        <access lane="-37958928_0" pos="228.84" length="94.72" friendlyPos="1"/>
+        <access lane="37958928_0" pos="0.00" length="91.98" friendlyPos="1"/>
+        <access lane="37959233_0" pos="0.00" length="84.32" friendlyPos="1"/>
+        <access lane="557053863#3_0" pos="146.58" length="1.76" friendlyPos="1"/>
+        <access lane="557053863#4_0" pos="0.00" length="90.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618155177" name="12 de Octubre" lane="-1257873220#0_0" startPos="2000.47" endPos="2200.47" friendlyPos="true" lines="L1">
+        <access lane="1053788700#5_0" pos="88.58" length="95.19" friendlyPos="1"/>
+        <access lane="1053788700#6_0" pos="50.37" length="13.03" friendlyPos="1"/>
+        <access lane="555297608#0_0" pos="0.00" length="79.54" friendlyPos="1"/>
+        <access lane="623167760#15_0" pos="69.50" length="21.79" friendlyPos="1"/>
+        <access lane="908251267#1_0" pos="68.36" length="87.43" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618155178" name="Pueblo Nuevo" lane="-1257873220#0_0" startPos="1052.55" endPos="1252.55" friendlyPos="true" lines="L1">
+        <access lane="-1264199073#4_0" pos="0.00" length="80.03" friendlyPos="1"/>
+        <access lane="-623167761_0" pos="0.00" length="89.94" friendlyPos="1"/>
+        <access lane="1264199073#4_0" pos="9.31" length="75.87" friendlyPos="1"/>
+        <access lane="555297608#9_0" pos="57.70" length="15.60" friendlyPos="1"/>
+        <access lane="623167760#3_0" pos="71.18" length="18.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618155816" name="San Miguelito" lane="-346387794#0_0" startPos="10735.54" endPos="10935.54" friendlyPos="true" lines="L1">
+        <access lane="559463923#0_0" pos="71.64" length="21.73" friendlyPos="1"/>
+        <access lane="559463923#1_0" pos="2.68" length="25.64" friendlyPos="1"/>
+        <access lane="622362429#20-AddedOnRampEdge_0" pos="36.48" length="19.03" friendlyPos="1"/>
+        <access lane="684887070#0_0" pos="19.03" length="14.57" friendlyPos="1"/>
+        <access lane="701417247#2_0" pos="3.39" length="24.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2618155817" name="Pan de Azúcar" lane="1257873220#1_0" startPos="1066.79" endPos="1266.79" friendlyPos="true" lines="L1">
+        <access lane="-1262591444_0" pos="7.11" length="24.38" friendlyPos="1"/>
+        <access lane="1262591444_0" pos="0.00" length="26.42" friendlyPos="1"/>
+        <access lane="559463923#21_0" pos="127.48" length="15.06" friendlyPos="1"/>
+        <access lane="622362429#2_0" pos="30.73" length="25.52" friendlyPos="1"/>
+        <access lane="622362429#3_0" pos="2.49" length="18.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2694590415" name="Furniture City" lane="158193600#2_0" startPos="29.91" endPos="44.91" friendlyPos="true"/>
+    <busStop id="2694603773" name="Perejil" lane="619834155#1_0" startPos="13.35" endPos="28.35" friendlyPos="true"/>
+    <busStop id="2696382427" name="D - Via España" lane="42935501#1_0" startPos="339.29" endPos="354.29" friendlyPos="true" lines="Esclusas de Miraflores - Albrook"/>
+    <busStop id="2701746132" name="Obarrio" lane="158187043#0_0" startPos="66.36" endPos="81.36" friendlyPos="true" lines="Tocumen - Via España - Albrook Alcalde Díaz - Via España - Estación Marañón"/>
+    <busStop id="2704180739" name="E - Corredor Sur, Zona Este" lane="263956797#0_0" startPos="222.10" endPos="237.10" friendlyPos="true">
+        <access lane="1167131246_0" pos="70.81" length="24.53" friendlyPos="1"/>
+        <access lane="264770269_0" pos="44.36" length="7.21" friendlyPos="1"/>
+        <access lane="42935501#0_0" pos="150.02" length="96.07" friendlyPos="1"/>
+        <access lane="42935501#1_0" pos="44.97" length="0.00" friendlyPos="1"/>
+        <access lane="771960838#1_0" pos="222.88" length="96.90" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2708397134" name="Hospital del Niño" lane="860209444#8_0" startPos="42.72" endPos="57.72" friendlyPos="true"/>
+    <busStop id="2734730394" name="Abastos" lane="265450396_0" startPos="51.85" endPos="66.85" friendlyPos="true" lines="Albrook - Vía España - Gran Estación Albrook - Via España - Los Andes"/>
+    <busStop id="2734730396" name="Policia Nacional" lane="265450390_0" startPos="53.01" endPos="78.01" friendlyPos="true"/>
+    <busStop id="2734730398" name="Policia Nacional" lane="265043147#1_0" startPos="47.96" endPos="62.96" friendlyPos="true">
+        <access lane="-1124431090#5_0" pos="0.00" length="39.20" friendlyPos="1"/>
+        <access lane="-1124431090#6_0" pos="66.16" length="40.11" friendlyPos="1"/>
+        <access lane="1124431090#5_0" pos="16.61" length="34.43" friendlyPos="1"/>
+        <access lane="1124431090#6_0" pos="0.00" length="35.46" friendlyPos="1"/>
+        <access lane="605714592_0" pos="58.60" length="16.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529301118" name="San Isidro" lane="272808900_0" startPos="0.00" endPos="200.00" friendlyPos="true" lines="L1"/>
+    <busStop id="3529301119" name="El Ingenio" lane="-1257873220#0_0" startPos="3030.41" endPos="3230.41" friendlyPos="true" lines="L1">
+        <access lane="1039486230_0" pos="12.78" length="14.18" friendlyPos="1"/>
+        <access lane="386254129_0" pos="22.44" length="25.20" friendlyPos="1"/>
+        <access lane="387423177#1_0" pos="98.12" length="24.18" friendlyPos="1"/>
+        <access lane="387423177#2_0" pos="10.84" length="16.71" friendlyPos="1"/>
+        <access lane="623167760#25_0" pos="41.09" length="22.10" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529301122" name="Fernández de Córdoba" lane="-1257873220#0_0" startPos="4252.88" endPos="4452.88" friendlyPos="true" lines="L1">
+        <access lane="-158193614#2_0" pos="0.00" length="37.76" friendlyPos="1"/>
+        <access lane="-158193614#3_0" pos="31.39" length="1.19" friendlyPos="1"/>
+        <access lane="-158193620#0_0" pos="12.69" length="37.30" friendlyPos="1"/>
+        <access lane="158193614#3_0" pos="0.00" length="13.25" friendlyPos="1"/>
+        <access lane="158193620#0_0" pos="0.00" length="36.98" friendlyPos="1"/>
+    </busStop>
+    <busStop id="356508487" name="Cruce Vista Hermosa" lane="387416249_0" startPos="41.17" endPos="56.17" friendlyPos="true"/>
+    <busStop id="3578426430" name="La Locería I" lane="613464588_0" startPos="0.00" endPos="7.87" friendlyPos="true"/>
+    <busStop id="3578426433" name="MOP I" lane="1013537804_0" startPos="97.27" endPos="112.27" friendlyPos="true"/>
+    <busStop id="3578426435" name="Porras" lane="28878153_0" startPos="29.86" endPos="44.86" friendlyPos="true"/>
+    <busStop id="5173156385" name="Los Andes" lane="1257873220#1_0" startPos="2013.55" endPos="2213.55" friendlyPos="true" lines="L1">
+        <access lane="1262675175_0" pos="69.33" length="26.13" friendlyPos="1"/>
+        <access lane="29425218#7_0" pos="188.49" length="17.80" friendlyPos="1"/>
+        <access lane="620707371#2_0" pos="131.57" length="56.26" friendlyPos="1"/>
+        <access lane="622362441#6_0" pos="41.08" length="96.76" friendlyPos="1"/>
+        <access lane="778634929#10_0" pos="68.42" length="13.84" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5208805274" name="Cinco de Mayo" lane="-1257873220#0_0" startPos="8783.99" endPos="8983.99" friendlyPos="true" lines="L1">
+        <access lane="265035151#1_0" pos="141.76" length="220.65" friendlyPos="1"/>
+        <access lane="265035151#2_0" pos="47.69" length="189.01" friendlyPos="1"/>
+        <access lane="265166489_0" pos="206.15" length="124.15" friendlyPos="1"/>
+        <access lane="380236757#1_0" pos="230.39" length="223.63" friendlyPos="1"/>
+        <access lane="701379977_0" pos="206.53" length="316.83" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5369728506" lane="556675647_0" startPos="0.86" endPos="15.86" friendlyPos="true"/>
+    <busStop id="6416933272" name="San Miguelito" lane="684868250_0" startPos="209.60" endPos="409.60" friendlyPos="true" lines="L2">
+        <access lane="1232839198#1_0" pos="30.61" length="74.33" friendlyPos="1"/>
+        <access lane="153743054#1-AddedOnRampEdge_0" pos="43.69" length="28.33" friendlyPos="1"/>
+        <access lane="29425444#0_0" pos="53.63" length="43.14" friendlyPos="1"/>
+        <access lane="620919159_0" pos="145.37" length="67.66" friendlyPos="1"/>
+        <access lane="701417246_0" pos="145.61" length="0.32" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6416933273" name="San Miguelito" lane="684868237_0" startPos="11587.05" endPos="11787.05" friendlyPos="true" lines="L2">
+        <access lane="153743054#1-AddedOnRampEdge_0" pos="44.12" length="8.75" friendlyPos="1"/>
+        <access lane="29425444#0_0" pos="54.01" length="23.56" friendlyPos="1"/>
+        <access lane="44820696#2_0" pos="0.00" length="56.70" friendlyPos="1"/>
+        <access lane="620919159_0" pos="144.69" length="48.10" friendlyPos="1"/>
+        <access lane="701417246_0" pos="138.72" length="9.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6416933274" name="Paraiso" lane="684868250_0" startPos="941.30" endPos="1141.30" friendlyPos="true" lines="L2">
+        <access lane="29425444#2_0" pos="586.35" length="22.55" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6416933275" name="Paraiso" lane="684868237_0" startPos="10889.23" endPos="11089.23" friendlyPos="true" lines="L2">
+        <access lane="29425444#2_0" pos="586.14" length="13.85" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6416933276" name="Cincuentenario" lane="684868237_0" startPos="10035.34" endPos="10235.34" friendlyPos="true" lines="L2">
+        <access lane="29425444#2_0" pos="1427.10" length="50.12" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6416933277" name="Cincuentenario" lane="684868250_0" startPos="1800.89" endPos="2000.89" friendlyPos="true" lines="L2">
+        <access lane="29425444#2_0" pos="1427.16" length="57.93" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6416933278" name="Cerro Viento" lane="684868237_0" startPos="5008.00" endPos="5208.00" friendlyPos="true" lines="L2"/>
+    <busStop id="6416933279" name="Cerro Viento" lane="684868250_0" startPos="6825.63" endPos="7025.63" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942636" name="Pedregal - Las Acacias" lane="684868250_0" startPos="9500.51" endPos="9700.51" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942637" name="Pedregal - Las Acacias" lane="684868237_0" startPos="2334.15" endPos="2534.15" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942683" name="San Antonio" lane="684868250_0" startPos="7547.73" endPos="7747.73" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942690" name="San Antonio" lane="684868237_0" startPos="4286.89" endPos="4486.89" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942721" name="Brisas Del Golf" lane="684868237_0" startPos="5849.80" endPos="6049.80" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942736" name="Brisas Del Golf" lane="684868250_0" startPos="5984.95" endPos="6184.95" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942751" name="El Crisol" lane="684868237_0" startPos="7375.34" endPos="7575.34" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942764" name="El Crisol" lane="684868250_0" startPos="4493.73" endPos="4693.73" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942785" name="Villa Lucre" lane="684868250_0" startPos="3163.64" endPos="3363.64" friendlyPos="true" lines="L2"/>
+    <busStop id="6416942791" name="Villa Lucre" lane="684868237_0" startPos="8671.77" endPos="8871.77" friendlyPos="true" lines="L2"/>
+    <busStop id="6417104466" name="Don Bosco" lane="684868250_0" startPos="10539.61" endPos="10739.61" friendlyPos="true" lines="L2"/>
+    <busStop id="6417104467" name="Don Bosco" lane="684868237_0" startPos="1295.12" endPos="1495.12" friendlyPos="true" lines="L2"/>
+</additional>
