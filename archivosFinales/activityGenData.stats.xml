@@ -1,0 +1,31 @@
+<city>
+   <general
+        inhabitants="42199"
+        households="15478"
+        childrenAgeLimit="18"
+        retirementAgeLimit="65"
+        carRate="0.58"
+        unemploymentRate="0.05"
+        footDistanceLimit="350"
+    />
+    <parameters
+    carPreference="0.50"
+    meanTimePerKmInCity="360"
+    freeTimeActivityRate="0.15"
+    uniformRandomTraffic="0.20"
+    departureVariation="120"
+    />
+    <population>
+        <bracket beginAge="0" endAge="9" peopleNbr="3515" />
+        <bracket beginAge="10" endAge="17" peopleNbr="3343" />
+        <bracket beginAge="18" endAge="90" peopleNbr="35341" />
+    </population>
+    <workHours>
+        <opening hour="25200" proportion="0.20" />
+        <opening hour="30600" proportion="0.30" />
+        <opening hour="32400" proportion="0.60" />
+        <closing hour="43200" proportion="0.20" />
+        <closing hour="63000" proportion="0.20" />
+        <closing hour="64800" proportion="0.60" />
+    </workHours>
+</city>
